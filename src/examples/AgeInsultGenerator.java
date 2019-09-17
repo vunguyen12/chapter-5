@@ -27,10 +27,14 @@ public class AgeInsultGenerator {
 //        45 - 55
 //        55 +
 
-               if (age >= 35 && age <= 45) {
+        if (age >= 35 && age <= 45) {
 
             System.out.println("GO GET A LIFE");
         }
+
+        if (age >=45 || age>55 ){
+            System.out.println("you are too old");
+               }
 
 
     }
