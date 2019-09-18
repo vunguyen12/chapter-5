@@ -37,7 +37,7 @@ if (choice.equalsIgnoreCase("A") || choice.equalsIgnoreCase("B")){
     side1 = input.nextDouble();
     System.out.println("please enter for side C >>>");
     side2 = input.nextDouble();
-rightTriangleMathAB(side1,side2,choice);
+    rightTriangleMathAB(side1,side2,choice);
 }
 else if (choice.equalsIgnoreCase("B")){
         System.out.println("please enter for side A >>>");
@@ -66,9 +66,10 @@ else{
             System.out.println("the side " + choice + " is " + notC);
         }
 
-     public static void solvePerimeter() {
-
-
+        public static void solvePerimeter(double side1,double side2, double notC) {
+double perimeter;
+perimeter = side1 + side2 + notC;
+System.out.println("the perimeter is " + perimeter);
     }
     public static void solveArea(){
 
