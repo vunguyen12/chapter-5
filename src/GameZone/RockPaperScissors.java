@@ -9,6 +9,8 @@ public class RockPaperScissors {
         int userchoicenum;
         String comIA = null;
         int computerIA;
+        String result = null;
+
 
         Random rand = new Random();
         Scanner input = new Scanner(System.in);
@@ -33,7 +35,50 @@ public class RockPaperScissors {
         else if (userchoicenum == 3)
             userchoice = "Paper";
 // battle
-        if (userchoicenum == 1)
-        }
-    }
+//        number 1 scissor
+        if (userchoicenum == 1 && computerIA == 1){
+            System.out.println("your choice is scissor");
+            result =  "the game is draw";
 
+    }
+        else if (userchoicenum == 1 && computerIA == 2){
+            System.out.println("your choice is scissor");
+            result = "you lose";
+        }
+        else if (userchoicenum == 1 && computerIA == 3){
+            System.out.println("your choice is scissor");
+            result = "you win";
+        }
+//        number 2 rock
+        if (userchoicenum == 2 && computerIA == 1){
+            System.out.println("your choice is rock");
+            result =  "you win";
+
+        }
+        else if (userchoicenum == 2 && computerIA == 2){
+            System.out.println("your choice is rock");
+            result = "game draw";
+        }
+        else if (userchoicenum == 2 && computerIA == 3){
+            System.out.println("your choice is rock");
+            result = "you lose";
+        }
+//        number 3
+        if (userchoicenum == 3 && computerIA == 1){
+            System.out.println("your choice ia paper");
+            result =  "you lose";
+        }
+        else if (userchoicenum == 3 && computerIA == 2){
+            System.out.println("your choice ia paper");
+
+            result = "you win";
+        }
+        else if (userchoicenum == 3 && computerIA == 3){
+            System.out.println("your choice ia paper");
+            result = "the game is draw";
+        }
+        System.out.println("the computer choice is " +comIA);
+        System.out.println(result);
+}
+
+}
