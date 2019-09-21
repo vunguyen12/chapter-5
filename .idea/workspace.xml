@@ -21,6 +21,7 @@
   <component name="ProjectId" id="1R7Ui59Op7faO6NNxQjt0Haf8JJ" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunDashboard">
@@ -36,22 +37,8 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.RockPaperScissors">
-    <configuration name="AgeInsultGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="examples.AgeInsultGenerator" />
-      <module name="chapter-5" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EvenOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment.EvenOdd" />
+    <configuration name="AscendingAndDecending" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment.AscendingAndDecending" />
       <module name="chapter-5" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -64,13 +51,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomGuess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="examples.RandomGuess" />
+    <configuration name="CondoSales2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment.CondoSales2" />
       <module name="chapter-5" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="examples.*" />
+          <option name="PATTERN" value="Assignment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,6 +93,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="examples.Triangle" />
+      <module name="chapter-5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -129,19 +130,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.EvenOdd" />
-      <item itemvalue="Application.RandomGuess" />
       <item itemvalue="Application.RandomGuess2" />
-      <item itemvalue="Application.AgeInsultGenerator" />
       <item itemvalue="Application.RockPaperScissors" />
+      <item itemvalue="Application.Triangle" />
+      <item itemvalue="Application.AscendingAndDecending" />
+      <item itemvalue="Application.CondoSales2" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.RockPaperScissors" />
+        <item itemvalue="Application.CondoSales2" />
+        <item itemvalue="Application.AscendingAndDecending" />
+        <item itemvalue="Application.Triangle" />
         <item itemvalue="Application.RandomGuess2" />
-        <item itemvalue="Application.AgeInsultGenerator" />
-        <item itemvalue="Application.EvenOdd" />
-        <item itemvalue="Application.RandomGuess" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +164,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

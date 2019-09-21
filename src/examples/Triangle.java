@@ -21,13 +21,12 @@ public class Triangle {
          if (choice == 3 ) {
 
          }
-
     }
 
     public static void rightTrangle() {
         Scanner input = new Scanner(System.in);
         String choice;
-        double side1;
+        double side1 ;
         double side2;
 System.out.println("Which side do you want to solve for? \n" +
 "A- side\nB- Side\nC- side");
@@ -52,9 +51,13 @@ else{
         System.out.println("please enter for side C >>>");
         side2 = input.nextDouble();
         rightTriangleMathC(side1,side2,choice);
+
 }
 
     }
+
+
+
     public static void rightTriangleMathAB(double side1, double side2, String choice) {
         double notC;
         notC = Math.sqrt((side2 * side2) - (side1 * side1));
@@ -64,14 +67,15 @@ else{
             double notC;
             notC = Math.sqrt((side2 * side2) + (side1 * side1));
             System.out.println("the side " + choice + " is " + notC);
+            
         }
 
-        public static void solvePerimeter(double side1,double side2, double notC) {
-double perimeter;
-perimeter = side1 + side2 + notC;
-System.out.println("the perimeter is " + perimeter);
-    }
-    public static void solveArea(){
+//        public static void solvePerimeter(double side1,double side2) {
+//double perimeter;
+//perimeter = side1 + side2 + notC;
+//System.out.println("the perimeter is " + perimeter);
+//    }
+//    public static void solveArea(){
 
     }
-}
+//}
