@@ -21,14 +21,14 @@ public class Triangle {
          if (choice == 3 ) {
 
          }
-
     }
 
     public static void rightTrangle() {
         Scanner input = new Scanner(System.in);
         String choice;
-        double side1;
+        double side1 ;
         double side2;
+<<<<<<< HEAD
             System.out.println("Which side do you want to solve for? \n" +
             "A- side\nB- Side\nC- side");
             choice = input.next();
@@ -59,11 +59,48 @@ public class Triangle {
             double notC;
             notC = Math.sqrt((side2 * side2) - (side1 * side1));
             System.out.println("the side " + choice + " is " + notC);
+=======
+System.out.println("Which side do you want to solve for? \n" +
+"A- side\nB- Side\nC- side");
+choice = input.next();
+if (choice.equalsIgnoreCase("A") || choice.equalsIgnoreCase("B")){
+    System.out.println("please enter for side A >>>");
+    side1 = input.nextDouble();
+    System.out.println("please enter for side C >>>");
+    side2 = input.nextDouble();
+    rightTriangleMathAB(side1,side2,choice);
+}
+else if (choice.equalsIgnoreCase("B")){
+        System.out.println("please enter for side A >>>");
+        side1 = input.nextDouble();
+        System.out.println("please enter for side C >>>");
+        side2 = input.nextDouble();
+        rightTriangleMathAB(side1,side2,choice);
+}
+else{
+        System.out.println("please enter for side A >>>");
+        side1 = input.nextDouble();
+        System.out.println("please enter for side C >>>");
+        side2 = input.nextDouble();
+        rightTriangleMathC(side1,side2,choice);
+
+}
+
+    }
+
+
+
+    public static void rightTriangleMathAB(double side1, double side2, String choice) {
+        double notC;
+        notC = Math.sqrt((side2 * side2) - (side1 * side1));
+        System.out.println("the side " + choice + " is " + notC);
+>>>>>>> 4c8ef0bd970e22ba2b3b3f0540c8c9a1b83a3d62
     }
         public static void rightTriangleMathC (double side1, double side2, String choice) {
             double notC;
             notC = Math.sqrt((side2 * side2) + (side1 * side1));
             System.out.println("the side " + choice + " is " + notC);
+            
         }
         public static void iosMath1(double side1, double side2, String choice){
         Double perimeter;
@@ -101,12 +138,21 @@ public class Triangle {
             }
         }
 
+<<<<<<< HEAD
         public static void solvePerimeter(double side1,double side2, double notC) {
 
 
         }
 
         public static void solveArea(){
+=======
+//        public static void solvePerimeter(double side1,double side2) {
+//double perimeter;
+//perimeter = side1 + side2 + notC;
+//System.out.println("the perimeter is " + perimeter);
+//    }
+//    public static void solveArea(){
+>>>>>>> 4c8ef0bd970e22ba2b3b3f0540c8c9a1b83a3d62
 
     }
-}
+//}
