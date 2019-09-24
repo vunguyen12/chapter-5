@@ -28,7 +28,6 @@ public class Triangle {
         String choice;
         double side1 ;
         double side2;
-<<<<<<< HEAD
             System.out.println("Which side do you want to solve for? \n" +
             "A- side\nB- Side\nC- side");
             choice = input.next();
@@ -59,7 +58,6 @@ public class Triangle {
             double notC;
             notC = Math.sqrt((side2 * side2) - (side1 * side1));
             System.out.println("the side " + choice + " is " + notC);
-=======
 System.out.println("Which side do you want to solve for? \n" +
 "A- side\nB- Side\nC- side");
 choice = input.next();
@@ -94,7 +92,6 @@ else{
         double notC;
         notC = Math.sqrt((side2 * side2) - (side1 * side1));
         System.out.println("the side " + choice + " is " + notC);
->>>>>>> 4c8ef0bd970e22ba2b3b3f0540c8c9a1b83a3d62
     }
         public static void rightTriangleMathC (double side1, double side2, String choice) {
             double notC;
@@ -138,21 +135,18 @@ else{
             }
         }
 
-<<<<<<< HEAD
         public static void solvePerimeter(double side1,double side2, double notC) {
 
 
         }
 
         public static void solveArea(){
-=======
 //        public static void solvePerimeter(double side1,double side2) {
 //double perimeter;
 //perimeter = side1 + side2 + notC;
 //System.out.println("the perimeter is " + perimeter);
 //    }
 //    public static void solveArea(){
->>>>>>> 4c8ef0bd970e22ba2b3b3f0540c8c9a1b83a3d62
 
     }
 //}
