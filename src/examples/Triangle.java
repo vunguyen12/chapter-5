@@ -135,6 +135,6 @@ else{
         }
 
         public static void solvePerimeter(double side1,double side2, double notC) {
-System.out.println(" i messed up the assassingment")
+System.out.println(" i messed up the assingnment");
 
         }}
