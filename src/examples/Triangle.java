@@ -124,7 +124,6 @@ else{
                 side1 = input.nextDouble();
                 System.out.println("please enter for side C >>>");
                 side2 = input.nextDouble();
-                rightTriangleMathAB(side1,side2,choice);
             }
             else{
                 System.out.println("please enter for side A >>>");
@@ -136,17 +135,6 @@ else{
         }
 
         public static void solvePerimeter(double side1,double side2, double notC) {
+System.out.println(" i messed up the assassingment")
 
-
-        }
-
-        public static void solveArea(){
-//        public static void solvePerimeter(double side1,double side2) {
-//double perimeter;
-//perimeter = side1 + side2 + notC;
-//System.out.println("the perimeter is " + perimeter);
-//    }
-//    public static void solveArea(){
-
-    }
-//}
+        }}
