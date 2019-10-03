@@ -101,16 +101,8 @@ public class RockPaperScissors {
 
 
 //        invalid code
-<<<<<<< HEAD
         if ( invalidInPut == false){
             System.out.println(" whatchu doing, play seriously");
         }
     }
 }
-=======
-         if ( invalidInPut == false){
-            System.out.println(" whatchu doing, play seriously");
-        }
-    }
-}
->>>>>>> 4c8ef0bd970e22ba2b3b3f0540c8c9a1b83a3d62
