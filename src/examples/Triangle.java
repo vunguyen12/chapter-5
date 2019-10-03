@@ -28,6 +28,7 @@ public class Triangle {
         String choice;
         double side1;
         double side2;
+<<<<<<< HEAD
         System.out.println("Which side do you want to solve for? \n" +
                 "A- side\nB- Side\nC- side");
         choice = input.next();
@@ -52,6 +53,63 @@ public class Triangle {
         }
 
     }
+=======
+            System.out.println("Which side do you want to solve for? \n" +
+            "A- side\nB- Side\nC- side");
+            choice = input.next();
+            if (choice.equalsIgnoreCase("A") || choice.equalsIgnoreCase("B")){
+                System.out.println("please enter for side A >>>");
+                side1 = input.nextDouble();
+                System.out.println("please enter for side C >>>");
+                side2 = input.nextDouble();
+                rightTriangleMathAB(side1,side2,choice);
+            }
+            else if (choice.equalsIgnoreCase("B")){
+                    System.out.println("please enter for side A >>>");
+                    side1 = input.nextDouble();
+                    System.out.println("please enter for side C >>>");
+                    side2 = input.nextDouble();
+                    rightTriangleMathAB(side1,side2,choice);
+            }
+            else{
+                    System.out.println("please enter for side A >>>");
+                    side1 = input.nextDouble();
+                    System.out.println("please enter for side C >>>");
+                    side2 = input.nextDouble();
+                    rightTriangleMathC(side1,side2,choice);
+            }
+
+    }
+        public static void rightTriangleMathAB(double side1, double side2, String choice) {
+            double notC;
+            notC = Math.sqrt((side2 * side2) - (side1 * side1));
+            System.out.println("the side " + choice + " is " + notC);
+System.out.println("Which side do you want to solve for? \n" +
+"A- side\nB- Side\nC- side");
+choice = input.next();
+if (choice.equalsIgnoreCase("A") || choice.equalsIgnoreCase("B")){
+    System.out.println("please enter for side A >>>");
+    side1 = input.nextDouble();
+    System.out.println("please enter for side C >>>");
+    side2 = input.nextDouble();
+    rightTriangleMathAB(side1,side2,choice);
+}
+else if (choice.equalsIgnoreCase("B")){
+        System.out.println("please enter for side A >>>");
+        side1 = input.nextDouble();
+        System.out.println("please enter for side C >>>");
+        side2 = input.nextDouble();
+        rightTriangleMathAB(side1,side2,choice);
+}
+else{
+        System.out.println("please enter for side A >>>");
+        side1 = input.nextDouble();
+        System.out.println("please enter for side C >>>");
+        side2 = input.nextDouble();
+        rightTriangleMathC(side1,side2,choice);
+
+}
+>>>>>>> fbf7a3f8c6bfef00b549c1ac9236d73090043e65
 
     public static void rightTriangleMathAB(double side1, double side2, String choice) {
         double notC;
@@ -130,6 +188,7 @@ public class Triangle {
             side2 = input.nextDouble();
 
         }
+<<<<<<< HEAD
     }
 
     public static void solvePerimeter(double side1, double side2, double notC) {
@@ -142,3 +201,39 @@ public class Triangle {
 
     }
 }
+=======
+        public static void iso(){
+            Scanner input = new Scanner(System.in);
+            String choice;
+            double side1;
+            double side2;
+            System.out.println("Which side do you want to solve for? \n" +
+                    "A for Perimeter side\nB for Base- Side\n C for Height- side");
+            choice = input.next();
+            if (choice.equalsIgnoreCase("A") || choice.equalsIgnoreCase("B")){
+                System.out.println("please enter for side A >>>");
+                side1 = input.nextDouble();
+                System.out.println("please enter for side C >>>");
+                side2 = input.nextDouble();
+                iosMath1( side1,side2,choice);
+            }
+            else if (choice.equalsIgnoreCase("B")){
+                System.out.println("please enter for side A >>>");
+                side1 = input.nextDouble();
+                System.out.println("please enter for side C >>>");
+                side2 = input.nextDouble();
+            }
+            else{
+                System.out.println("please enter for side A >>>");
+                side1 = input.nextDouble();
+                System.out.println("please enter for side C >>>");
+                side2 = input.nextDouble();
+
+            }
+        }
+
+        public static void solvePerimeter(double side1,double side2, double notC) {
+System.out.println(" i messed up the assingnment");
+
+        }}
+>>>>>>> fbf7a3f8c6bfef00b549c1ac9236d73090043e65
